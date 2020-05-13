@@ -1,0 +1,37 @@
+<ActionBar>
+    <!--
+    Use the NavigationButton as a side-drawer button in Android
+    because ActionItems are shown on the right side of the ActionBar
+    -->
+    <NavigationButton ios:visibility="collapsed" icon="res://menu" (tap)="onDrawerButtonTap()"></NavigationButton>
+    <!--
+    Use the ActionItem for IOS with position set to left. Using the
+    NavigationButton as a side-drawer button in iOS is not possible,
+    because its function is to always navigate back in the application.
+    -->
+    <ActionItem icon="res://menu" android:visibility="collapsed" (tap)="onDrawerButtonTap()"
+        ios.position="left">
+    </ActionItem>
+    <Label text="UNIVERSIDAD DE LAS AMERICAS"></Label>
+</ActionBar>
+<GridLayout class="page__content" rows="*,*,*"sdkExampleTitle sdkToggleNavButto>
+
+    <Label class="page__content-placeholder" text="CERTIFICACION" color="red" ></Label>
+
+</GridLayout>
+<GridLayout class="page__content" rows="*,*"sdkExampleTitle sdkToggleNavButto>
+
+    <Label class="page__content-placeholder" text="HERRAMIENTAS DE DESARROLLO" color="purple"></Label>
+        <Label class="page__content-placeholder" col="1" row="2" text="Seleccione una opcion del menu" color="gray"></Label>
+
+</GridLayout>
+
+
+<GridLayout class="page__content" columns="*,*,*," rows="*,*,*"sdkExampleTitle sdkToggleNavButto>
+    <Label class="page__content-icon fas" col="1" row="2" text="&#xf665;" color="orange"></Label>
+
+</GridLayout>
+<GridLayout class="page__content"sdkExampleTitle sdkToggleNavButto>
+    <Label class="page__content-placeholder" col="1" text="NativeScript de David Lopez" color="blue"></Label>
+</GridLayout>
+

@@ -1,0 +1,14 @@
+
+<ActionBar title="WebService">
+</ActionBar>
+
+<GridLayout>
+    <ListView [items]="items">
+        <ng-template let-item="item">
+            <StackLayout>
+                    <Label [nsRouterLink]="['/item', item.id]" [text]="item.userId"></Label>
+                    <Label [nsRouterLink]="['/item', item.id]" [text]="item.title"></Label>
+            </StackLayout>
+        </ng-template>
+    </ListView>
+</GridLayout>
