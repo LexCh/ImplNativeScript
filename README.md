@@ -1,3 +1,6 @@
 # ImplNativeScript
 Implementación de la cámara, video y webservice
-![Alt text](relative/path/to/img.jpg?raw=true "Title")
+
+![alt text](https://github.com/LexCh/ImplNativeScript/issues/4#issue-619516761)
+
+
