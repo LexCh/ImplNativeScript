@@ -1,7 +1,7 @@
 # ImplNativeScript
-Implementación de la cámara, video y webservice con un menu de opcione
+Implementación de la cámara, video y webservice con un menu de opciones
 
-
+## MEnu Opciones
 ![NativeScript (2)](https://user-images.githubusercontent.com/55968997/82125692-48fd2300-976d-11ea-9f00-d93e734a693c.jpeg)
 
 
